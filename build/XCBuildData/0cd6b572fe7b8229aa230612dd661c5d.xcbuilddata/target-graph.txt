@@ -1,0 +1,2 @@
+Target dependency graph (1 target)
+Target '3D game' in project '3D game' (no dependencies)

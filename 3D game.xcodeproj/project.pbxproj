@@ -1,0 +1,356 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0180A68B2B0BDA9500837261 /* libSDL2_mixer-2.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0180A68A2B0BDA9500837261 /* libSDL2_mixer-2.0.0.dylib */; };
+		0180A68C2B0BDA9500837261 /* libSDL2_mixer-2.0.0.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 0180A68A2B0BDA9500837261 /* libSDL2_mixer-2.0.0.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		0180A68F2B0BDAB400837261 /* libSDL2-2.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0180A68E2B0BDAB400837261 /* libSDL2-2.0.0.dylib */; };
+		0180A6902B0BDAB400837261 /* libSDL2-2.0.0.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 0180A68E2B0BDAB400837261 /* libSDL2-2.0.0.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		0180A6912B0BF3D200837261 /* libSDL2-2.0.0.dylib in Copy Files */ = {isa = PBXBuildFile; fileRef = 0180A68E2B0BDAB400837261 /* libSDL2-2.0.0.dylib */; };
+		0180A6922B0BF3D200837261 /* libSDL2_mixer-2.0.0.dylib in Copy Files */ = {isa = PBXBuildFile; fileRef = 0180A68A2B0BDA9500837261 /* libSDL2_mixer-2.0.0.dylib */; };
+		0180A6932B0BF42A00837261 /* GLUT.framework in Copy Files */ = {isa = PBXBuildFile; fileRef = 01B67BB92B07E47C002B7C01 /* GLUT.framework */; };
+		01B67BB02B07E465002B7C01 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01B67BAF2B07E465002B7C01 /* main.cpp */; };
+		01B67BB82B07E477002B7C01 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01B67BB72B07E477002B7C01 /* OpenGL.framework */; };
+		01B67BBA2B07E47C002B7C01 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01B67BB92B07E47C002B7C01 /* GLUT.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0180A68D2B0BDA9500837261 /* Embed Libraries */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				0180A6902B0BDAB400837261 /* libSDL2-2.0.0.dylib in Embed Libraries */,
+				0180A68C2B0BDA9500837261 /* libSDL2_mixer-2.0.0.dylib in Embed Libraries */,
+			);
+			name = "Embed Libraries";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01B67BAA2B07E465002B7C01 /* Copy Files */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				0180A6932B0BF42A00837261 /* GLUT.framework in Copy Files */,
+				0180A6912B0BF3D200837261 /* libSDL2-2.0.0.dylib in Copy Files */,
+				0180A6922B0BF3D200837261 /* libSDL2_mixer-2.0.0.dylib in Copy Files */,
+			);
+			name = "Copy Files";
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0180A68A2B0BDA9500837261 /* libSDL2_mixer-2.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libSDL2_mixer-2.0.0.dylib"; path = "ExternalLibraries/sdl2_mixer/2.6.3_1/lib/libSDL2_mixer-2.0.0.dylib"; sourceTree = "<group>"; };
+		0180A68E2B0BDAB400837261 /* libSDL2-2.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libSDL2-2.0.0.dylib"; path = "ExternalLibraries/sdl2/2.28.4/lib/libSDL2-2.0.0.dylib"; sourceTree = "<group>"; };
+		01B67BAC2B07E465002B7C01 /* 3D game */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "3D game"; sourceTree = BUILT_PRODUCTS_DIR; };
+		01B67BAF2B07E465002B7C01 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		01B67BB72B07E477002B7C01 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		01B67BB92B07E47C002B7C01 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		01B67BA92B07E465002B7C01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0180A68F2B0BDAB400837261 /* libSDL2-2.0.0.dylib in Frameworks */,
+				01B67BBA2B07E47C002B7C01 /* GLUT.framework in Frameworks */,
+				01B67BB82B07E477002B7C01 /* OpenGL.framework in Frameworks */,
+				0180A68B2B0BDA9500837261 /* libSDL2_mixer-2.0.0.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01B67BA32B07E465002B7C01 = {
+			isa = PBXGroup;
+			children = (
+				01B67BAE2B07E465002B7C01 /* 3D game */,
+				01B67BAD2B07E465002B7C01 /* Products */,
+				01B67BB62B07E477002B7C01 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		01B67BAD2B07E465002B7C01 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				01B67BAC2B07E465002B7C01 /* 3D game */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		01B67BAE2B07E465002B7C01 /* 3D game */ = {
+			isa = PBXGroup;
+			children = (
+				01B67BAF2B07E465002B7C01 /* main.cpp */,
+			);
+			path = "3D game";
+			sourceTree = "<group>";
+		};
+		01B67BB62B07E477002B7C01 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0180A68E2B0BDAB400837261 /* libSDL2-2.0.0.dylib */,
+				0180A68A2B0BDA9500837261 /* libSDL2_mixer-2.0.0.dylib */,
+				01B67BB92B07E47C002B7C01 /* GLUT.framework */,
+				01B67BB72B07E477002B7C01 /* OpenGL.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		01B67BAB2B07E465002B7C01 /* 3D game */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01B67BB32B07E465002B7C01 /* Build configuration list for PBXNativeTarget "3D game" */;
+			buildPhases = (
+				01B67BA82B07E465002B7C01 /* Sources */,
+				01B67BA92B07E465002B7C01 /* Frameworks */,
+				01B67BAA2B07E465002B7C01 /* Copy Files */,
+				0180A68D2B0BDA9500837261 /* Embed Libraries */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "3D game";
+			productName = "3D game";
+			productReference = 01B67BAC2B07E465002B7C01 /* 3D game */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		01B67BA42B07E465002B7C01 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					01B67BAB2B07E465002B7C01 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 01B67BA72B07E465002B7C01 /* Build configuration list for PBXProject "3D game" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 01B67BA32B07E465002B7C01;
+			productRefGroup = 01B67BAD2B07E465002B7C01 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				01B67BAB2B07E465002B7C01 /* 3D game */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01B67BA82B07E465002B7C01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01B67BB02B07E465002B7C01 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		01B67BB12B07E465002B7C01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		01B67BB22B07E465002B7C01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		01B67BB42B07E465002B7C01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = (
+					"${SRCROOT}/ExternalLibraries/sdl2/2.28.4/include",
+					"${SRCROOT}/ExternalLibraries/sdl2_mixer/2.6.3_1/include",
+					"${SRCROOT}/ExternalLibraries/SDL2-/include",
+					"${SRCROOT}/audio/background.mp3",
+					"${SRCROOT}/audio/babyShark.mp3",
+					"${SRCROOT}/audio/babyLaughing.mp3",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ExternalLibraries/sdl2_mixer/2.6.3_1/lib",
+					"$(PROJECT_DIR)/ExternalLibraries/sdl2/2.28.4/lib",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		01B67BB52B07E465002B7C01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = (
+					"${SRCROOT}/ExternalLibraries/sdl2/2.28.4/include",
+					"${SRCROOT}/ExternalLibraries/sdl2_mixer/2.6.3_1/include",
+					"${SRCROOT}/ExternalLibraries/SDL2-/include",
+					"${SRCROOT}/audio/background.mp3",
+					"${SRCROOT}/audio/babyShark.mp3",
+					"${SRCROOT}/audio/babyLaughing.mp3",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ExternalLibraries/sdl2_mixer/2.6.3_1/lib",
+					"$(PROJECT_DIR)/ExternalLibraries/sdl2/2.28.4/lib",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01B67BA72B07E465002B7C01 /* Build configuration list for PBXProject "3D game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01B67BB12B07E465002B7C01 /* Debug */,
+				01B67BB22B07E465002B7C01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01B67BB32B07E465002B7C01 /* Build configuration list for PBXNativeTarget "3D game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01B67BB42B07E465002B7C01 /* Debug */,
+				01B67BB52B07E465002B7C01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 01B67BA42B07E465002B7C01 /* Project object */;
+}
